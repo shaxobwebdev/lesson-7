@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  box-shadow: 5px 10px yellowgreen;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  background-color: beige;
+  padding: 4rem;
+  text-shadow: -10px 5px 5px rgb(red, green, blue);
+}
+
+h2 {
+  box-shadow: 5px 10px wheat;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  background-color: bisque;
+  padding: 4rem;
+  text-shadow: -10px 5px 5px rgb(red, green, blue);
+}
+
+h3 {
+  box-shadow: 5px 10px rgb(59, 59, 28);
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  background-color: rgb(40, 31, 31);
+  padding: 4rem;
+  text-shadow: -10px 6px 6px rgb(red, green, blue);
+}
+
+h4 {
+  box-shadow: 5px 10px black;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  background-color: rgb(47, 23, 70);
+  padding: 5rem;
+  text-shadow: -10px 7px 7px rgb(47, 23, 70);
+}
+
+.box button {
+  margin: 20px;
+  background-color: white;
+  width: 500px;
+  height: 250px;
+  border-radius: 15px;
+  font-size: 2rem;
+  transition: 0 5ms;
+}
+
+.box {
+  text-align: center;
+}
+
+.box:hover button {
+  box-shadow: 0 0 8px 8px grey;
+}
